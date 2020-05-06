@@ -1,0 +1,14 @@
+{
+  "name": "study-redux-circle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Sotaneum/study-redux-circle.git",
+  "author": "fred.dy <fred.dy@kakaocorp.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "open 'http://localhost:1234' & parcel index.html"
+  },
+  "dependencies": {
+    "redux": "^4.0.5"
+  }
+}
