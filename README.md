@@ -15,3 +15,15 @@ yarn
 ```bash
 yarn start
 ```
+
+## Build
+
+```bash
+yarn build
+```
+
+## deploy
+
+```bash
+yarn deploy
+```
