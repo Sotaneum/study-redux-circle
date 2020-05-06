@@ -5,10 +5,15 @@
   "repository": "git@github.com:Sotaneum/study-redux-circle.git",
   "author": "fred.dy <fred.dy@kakaocorp.com>",
   "license": "MIT",
+  "homepage": "https://sotaneum.github.io/study-redux-circle/",
   "scripts": {
-    "start": "open 'http://localhost:1234' & parcel index.html"
+    "start": "parcel index.html | open 'http://localhost:1234'",
+    "build": "rm -rf dist & parcel build index.html --public-url ./",
+    "deploy": "yarn build & gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.4",
     "redux": "^4.0.5"
   }
 }
