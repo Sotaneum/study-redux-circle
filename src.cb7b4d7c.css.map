@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,QACE,qBAAuB,CACvB,UAAW,CACX,WAAY,CACZ,kBAAmB,CACnB,qBACF,CAEA,eACE,eACF","file":"src.cb7b4d7c.css","sourceRoot":"../src","sourcesContent":[".toggle {\n  border: 2px solid black;\n  width: 64px;\n  height: 64px;\n  border-radius: 32px;\n  box-sizing: border-box;\n}\n\n.toggle.active {\n  background: yellow;\n}\n"]}
